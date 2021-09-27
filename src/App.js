@@ -1,7 +1,11 @@
 import "./App.scss";
 
 function App() {
-  return <div className="App">ddadadadaddiv</div>;
+  return (
+    <div className="App">
+      <RouterComponent />
+    </div>
+  );
 }
 
 export default App;
